@@ -1,12 +1,12 @@
-// import s from './Notification.module.css';
-// import PropTypes from 'prop-types';
+import s from './Notification.module.css';
+import PropTypes from 'prop-types';
 
-// function Notification({ message }) {
-//   return <p className={s.title}>{message}</p>;
-// }
+function Notification({ message }) {
+  return <p className={s.title}>{message}</p>;
+}
 
-// Notification.propTypes = {
-//   message: PropTypes.string.isRequired,
-// };
+Notification.propTypes = {
+  message: PropTypes.string.isRequired,
+};
 
-// export default Notification;
+export default Notification;
